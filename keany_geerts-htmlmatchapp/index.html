@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Applicatie</title>
+</head>
+
+<body>
+  <header>
+    <h1>Keany HTML Applicatie </h1>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Meer informatie over deze applicatie!</h2>
+      <img src="https://eenvandaag.assets.avrotros.nl/_processed_/2/9/csm_Lokaal_9f1e60dbb4.jpeg"
+        alt="foto van klaslokaal" width="400">
+      <p>klik <a href="http://google.com
+          ">hier</a> voor meer foto's van klaslokalen.</p>
+      <p> klik hier voor <a
+          href="https://www.google.com/search?q=klaslokaal+fotos&sxsrf=ALiCzsYahsnVIciS07K-83rvgYUSvjobHg:1663589962919&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjus6rG66D6AhXB8IUKHT09BjwQ_AUoAXoECAEQAw&biw=1280&bih=652&dpr=1.5">Meer
+          fotos</a></p>
+      <section id="lijstjes" 
+        <h2>wat ik wel mag doen in de klas</h2>
+        <li>zwijgen</li>
+        <li>luisteren</li>
+        <li>opletten</li>
+        <h2>wat ik niet mag doen in de klas</h2>
+        <ol>
+          <li>geluiden afspelen</li>
+          <li>de les verstoren</li>
+          <li>roepen</li>
+        </ol>
+      </section>
+  </main>
+  <section id="formulier" >
+    <form action="">
+      <fieldset>
+        <legend>wat is jouw bijnaam?</legend>
+        <input type="text" placeholder="schrijf hier je binaam">
+      </fieldset>
+      <fieldset>
+        <legend> wat is jouw leeftijd?</legend>
+        <input type="number" name="leeftijd" min="1" max="120">
+      </fieldset>
+      <fieldset>
+        <legend> wat is de kleur van het klaslokaal?</legend>
+      <input type="radio" name="kleur" value="rood"> rood lokaal
+      <input type="radio" name="kleur" value="geel"> geel
+      <input type="radio" name="kleur" value="blauw"> blauw lokaal
+      <input type="radio" name="kleur" value="groen"> groen lokaal
+      </FIeldset>
+      <fieldset>
+        <legend>wat is er aanwezig in het lokaal?</legend>
+        <input type="checkbox" name="aanwezig"
+        value="projector">projector
+        <input type="checkbox" name="aanwezig"
+        value="krijtbord">krijtbord
+        <input type="checkbox" name="aanwezig"
+        value="banken">banken
+        <input type="checkbox" name="aanwezig"
+        value="stoelen">stoelen
+        <input type="checkbox" name="aanwezig"
+        value="kindjes">kindjes
+      </fieldset>
+      <fieldset>
+        <legend>heeft u nog een opmerking?</legend>
+        <textarea name="" id="" cols="40" rows="10"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>waar heeft u deze applicatie leren kennen?</legend>
+        <select name="ênquete" id="">
+        <option value="">vrienden of familie</option>
+        <option value="">advertentie</option>
+        <option value="">andere</option>
+       </select>
+      </fieldset>
+      <button type="submit">Verzenden</button>
+      <button type="reset"> Herstellen</button>
+    </form>
+  </section>
+</body>
+</html>
