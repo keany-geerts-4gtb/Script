@@ -1,3 +1,32 @@
 body{
     background-color: rgba(110, 110, 110, 0.735);
+    font-family: sans-serif;
+}
+a {
+    color: rgb(2, 2, 2);
+}
+a:hover{
+    color: blue;
+   
+}
+
+#about{
+    display: flex;
+   padding: 4% 0;
+   border-radius: 20px;
+   background-color: rgba(110, 110, 110, 0.749);
+}
+.left{
+    /* width: 30%; */
+    flex: 3;
+}
+.right{
+    /* width: 70%; */
+    flex: 7;
+}
+.col{
+    padding: 40px;
+}
+header{
+    padding: 20px;
 }
