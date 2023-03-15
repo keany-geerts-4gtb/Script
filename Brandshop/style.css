@@ -1,0 +1,33 @@
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 207, 207);
+}
+.flex-container { 
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    margin: -10px;
+}
+header nav li{
+    display: inline;
+
+}
+header input{
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    width: 100px;
+}
+header i {
+    margin-left: 1.5ch;
+    font-size: 1.1rem;
+}
+header a{
+    color: black;
+    padding: 10px;
+    background-color: rgb(123, 123, 123);
+}
