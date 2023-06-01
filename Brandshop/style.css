@@ -1,6 +1,6 @@
 body {
     color: rgb(0, 0, 0);
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
 }
 
 .flex-container {
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     margin: -10px;
 }
@@ -39,7 +39,7 @@ header i {
 header a {
     color: black;
     padding: 10px;
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(255, 255, 255);
 }
 
 video {
@@ -60,6 +60,101 @@ video {
 img {
     width: 100%
 }
-#cta { 
-    width: 500px;
+footer {
+    padding: 5vw 10vw;
+    background-color: #111;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+
+footer ul li:first-child a,
+footer ul:first-child li a {
+    color: #9590c9;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i {
+    margin-left: 1ch;
+    font-size: 1.6rem;
+}
+
+footer i:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 1900%;
+    left: 1%;
+    padding: 1rem;
+    background-color: #66def1;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.highlight {
+    padding: 2rem;
+    background-color: #d4cce7;
+}
+
+.memberfoto {
+    background-image: url(membership\ foto.webp);
+    align-self: stretch;
+    background-size: cover;
+}
+
+#membership .flex-item {
+    padding: 2rem;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 10px;
+}
+footer {
+    padding: 5vw 10vw;
+    background-color: #dedede;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+}
+footer li:first-child a {
+    font-weight: 900;
+    font-size: 1.2rem;
 }
